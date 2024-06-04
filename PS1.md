@@ -5,6 +5,9 @@ Powershell
 | Command | Description |
 | ------- | ----------- |
 | `Test-NetConnection -ComputerName <IP> -Port <#>` | Test connection to destination IP via specific port |
+| `Uninstall-WindowsFeature -Name <Feature Name> -Restart` | Uninstall windows feature |
+| `Get-WindowsFeature -ComputerName <servername>` | Install feature remotely |
+
 
 ### Exchange
 | Command | Description |
